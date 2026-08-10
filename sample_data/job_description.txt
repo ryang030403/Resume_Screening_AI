@@ -1,0 +1,16 @@
+We are hiring a Backend Software Engineer to join our platform team.
+
+Responsibilities:
+- Design and build scalable REST APIs using Python and Django or Flask
+- Work with PostgreSQL and Redis for data storage and caching
+- Write unit and integration tests, participate in code review
+- Deploy services using Docker and CI/CD pipelines on AWS
+- Collaborate with cross-functional teams in an Agile environment
+
+Requirements:
+- 2+ years of experience with Python
+- Strong knowledge of REST API design and microservices architecture
+- Experience with SQL databases, PostgreSQL preferred
+- Familiarity with Docker, Git, and cloud platforms (AWS/GCP)
+- Understanding of data structures, algorithms, and system design
+- Excellent problem-solving and communication skills

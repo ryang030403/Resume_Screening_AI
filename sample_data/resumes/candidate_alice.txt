@@ -1,0 +1,11 @@
+Alice Kumar
+Backend Software Engineer
+
+Experience:
+- 3 years building REST APIs with Python and Django
+- Deployed microservices using Docker and AWS ECS
+- Designed PostgreSQL schemas and optimized slow queries
+- Wrote unit and integration tests with pytest, maintained 90% coverage
+- Worked in an Agile team with weekly sprint planning
+
+Skills: Python, Django, Flask, PostgreSQL, Redis, Docker, AWS, Git, REST APIs

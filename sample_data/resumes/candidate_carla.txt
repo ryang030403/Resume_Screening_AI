@@ -1,0 +1,11 @@
+Carla Mendes
+Software Engineer
+
+Experience:
+- 4 years of Python development across data pipelines and backend services
+- Built REST APIs using Flask and FastAPI, deployed on AWS with Docker
+- Managed PostgreSQL and Redis in production, handled schema migrations
+- Set up CI/CD pipelines with GitHub Actions and wrote extensive unit tests
+- Mentored junior engineers and led system design discussions
+
+Skills: Python, Flask, FastAPI, PostgreSQL, Redis, Docker, AWS, System Design, CI/CD

@@ -1,0 +1,10 @@
+Bob Singh
+Frontend Developer
+
+Experience:
+- 2 years building UIs with React and TypeScript
+- Implemented responsive designs and improved accessibility
+- Integrated REST APIs into single page applications
+- Familiar with Git and basic CI/CD via GitHub Actions
+
+Skills: JavaScript, TypeScript, React, HTML, CSS, Git
