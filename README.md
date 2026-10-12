@@ -49,6 +49,24 @@ Shortlisted (2/4) at threshold >= 0.15:
 python -m pytest tests/ -v
 ```
 
+## Evaluation on Labeled Data
+
+`evaluate.py` scores the screener against [`cnamuangtoun/resume-job-description-fit`](https://huggingface.co/datasets/cnamuangtoun/resume-job-description-fit), a public dataset of 8,000 real resume/job-description pairs labeled *Good Fit*, *Potential Fit* or *No Fit*. Good and Potential Fit count as "shortlist". Resumes are ranked per job description, the threshold is tuned on the train split only, and accuracy is reported on the held-out test split (1,759 pairs, 71 job descriptions). The dataset downloads automatically on first run.
+
+```bash
+python evaluate.py
+```
+
+| Metric | Result |
+|---|---|
+| Held-out shortlisting accuracy | 55.0% |
+| Majority-class baseline | 48.7% |
+| Precision / recall | 56.5% / 52.9% |
+| ROC AUC | 0.590 |
+| Ranking time per batch (~25 real resumes) | median ~105 ms |
+
+**Honest read:** plain TF-IDF beats the baseline, but only modestly. Labels in this dataset depend on seniority, depth and context, which a bag-of-words similarity can't see. This evaluation harness is the reason to swap in sentence embeddings or a trained classifier next, and to measure whether they actually help.
+
 ## Usage as a library
 
 ```python
